@@ -1,0 +1,48 @@
+{
+  "name": "nocobase-docs",
+  "version": "0.0.1",
+  "description": "A static site based on dumi",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "dumi dev",
+    "dev:en": "cross-env DOC_LANG=en-US dumi dev",
+    "dev:ja": "cross-env DOC_LANG=ja-JP dumi dev",
+    "build": "dumi build",
+    "build:en": "cross-env DOC_LANG=en-US dumi build",
+    "build:ja": "cross-env DOC_LANG=ja-JP dumi build",
+    "prepare": "husky install && dumi setup"
+  },
+  "authors": [],
+  "license": "MIT",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write --no-error-on-unmatched-pattern"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.2.0",
+    "@commitlint/config-conventional": "^18.1.0",
+    "cross-env": "^7.0.3",
+    "dumi": "^2.2.14",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.0.2",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "@formulajs/formulajs": "^4.4.9",
+    "@nocobase/client": "^0.21.0-alpha.6",
+    "antd": "^5.22.6",
+    "axios-mock-adapter": "1.22.0",
+    "dumi-theme-nocobase": "^0.2.30",
+    "sucrase": "^3.0.0"
+  },
+  "volta": {
+    "node": "20.14.0",
+    "yarn": "1.22.19"
+  }
+}
