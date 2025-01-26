@@ -1,4 +1,4 @@
-# Token Policy
+# Token Security Policy
 
 <PluginInfo name="auth"></PluginInfo>
 
