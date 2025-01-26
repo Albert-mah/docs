@@ -1,4 +1,4 @@
-# Audit Logger
+# Audit Log
 
 <PluginInfo licenseBundled="true" name="audit-logger"></PluginInfo>
 
