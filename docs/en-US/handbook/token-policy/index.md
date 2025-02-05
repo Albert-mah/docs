@@ -61,5 +61,3 @@ The refresh operation does not extend the Session Validity Period, it only regen
 **Recommended Settings:**
 
 For security reasons, it is recommended to set it between 5 to 10 minutes.
-
-333
