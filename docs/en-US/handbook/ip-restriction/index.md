@@ -46,5 +46,3 @@ Log Example:
 - Use CIDR network segments to simplify configuration, such as using 192.168.0.0/24 instead of adding individual IP addresses.
 - Regularly back up IP list configurations to quickly recover from misoperations or system failures.
 - Regularly monitor access logs to identify abnormal IPs and adjust the blacklist or whitelist promptly.
-
-222
