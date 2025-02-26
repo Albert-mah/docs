@@ -12,7 +12,6 @@ The audit log is used to record and track user activities and resource operation
 
 ## Parameter Description
 
-
 | Parameter             | Description                                                                                                                               |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | **Resource**          | The target resource type of the operation                                                                                                 |
@@ -37,14 +36,12 @@ Currently, the following resource operations will be recorded in the audit log:
 
 ### Main Application
 
-
 | Operation        | Description             |
 | ---------------- | ----------------------- |
 | `app:resart`     | Application restart     |
 | `app:clearCache` | Clear application cache |
 
 ### Plugin Manager
-
 
 | Operation    | Description    |
 | ------------ | -------------- |
@@ -56,7 +53,6 @@ Currently, the following resource operations will be recorded in the audit log:
 
 ### User Authentication
 
-
 | Operation             | Description     |
 | --------------------- | --------------- |
 | `auth:signIn`         | Sign in         |
@@ -66,13 +62,11 @@ Currently, the following resource operations will be recorded in the audit log:
 
 ### User
 
-
 | Operation             | Description    |
 | --------------------- | -------------- |
 | `users:updateProfile` | Update profile |
 
 ### UI Configuration
-
 
 | Operation                  | Description      |
 | -------------------------- | ---------------- |
@@ -81,7 +75,6 @@ Currently, the following resource operations will be recorded in the audit log:
 | `uiSchemas:remove`         | Remove UI Schema |
 
 ### Collection Operations
-
 
 | Operation        | Description                  |
 | ---------------- | ---------------------------- |
